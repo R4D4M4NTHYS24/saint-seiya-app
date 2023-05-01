@@ -6,7 +6,7 @@ const characters = [
     imageDetails: require("../assets/images/details/Mu.png"),
     nationality: "Japonés",
     country: "Japón",
-    teacher: "Dohko de Libra",
+    teacher: "Shion de Aries",
     techniques: ["Murido", "Orokyo Ryuseiken", "Kyuukyoku no Cosmo"],
     weapon: "Ninguna",
     personality: "Calmo y equilibrado",
@@ -37,7 +37,7 @@ const characters = [
   },
   {
     id: 4,
-    name: "Máscara de Muerte de Cáncer",
+    name: "Máscara mortal de Cáncer",
     imageMain: require("../assets/images/main/Cancer.png"),
     imageDetails: require("../assets/images/details/Death-mask.png"),
     nationality: "Italiano",
@@ -49,7 +49,7 @@ const characters = [
   },
   {
     id: 5,
-    name: "Aiolia de Leo",
+    name: "Aioria de Leo",
     imageMain: require("../assets/images/main/Leo.png"),
     imageDetails: require("../assets/images/details/Aiolia.png"),
     nationality: "Griego",
@@ -97,7 +97,7 @@ const characters = [
   },
   {
     id: 9,
-    name: "Aiolos de Sagitario",
+    name: "Aioros de Sagitario",
     imageMain: require("../assets/images/main/Sagitarius.png"),
     imageDetails: require("../assets/images/details/Aiolos.png"),
     nationality: "Griego",
@@ -133,7 +133,7 @@ const characters = [
   },
   {
     id: 12,
-    name: "Aphrodite de Piscis",
+    name: "Afrodita de Piscis",
     imageMain: require("../assets/images/main/Pisces.png"),
     imageDetails: require("../assets/images/details/Aphrodite.png"),
     nationality: "Italiano",

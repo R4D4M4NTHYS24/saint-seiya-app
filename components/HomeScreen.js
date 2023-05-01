@@ -7,7 +7,6 @@ import {
   Image,
   ScrollView,
   TextInput,
-  Button,
 } from "react-native";
 import characters from "../data/data.js";
 
@@ -63,14 +62,24 @@ const HomeScreen = ({ navigation }) => {
             <View style={styles.cardContent}>
               <Text style={styles.name}>{character.name}</Text>
               <Image source={character.imageMain} style={styles.image} />
-              <Text style={styles.nationality}>{character.nationality}</Text>
-              <Text style={styles.country}>{character.country}</Text>
-              <Text style={styles.teacher}>{character.teacher}</Text>
-              <Text style={styles.techniques}>
-                {character.techniques ? character.techniques.join(", ") : ""}
-              </Text>
-              <Text style={styles.weapon}>{character.weapon}</Text>
-              <Text style={styles.personality}>{character.personality}</Text>
+              <View style={styles.detailsContainer}>
+                <Text style={styles.title}>País: </Text>
+                <Text style={styles.detail}>{character.country}</Text>
+              </View>
+              <View style={styles.detailsContainer}>
+                <Text style={styles.title}>Maestro: </Text>
+                <Text style={styles.detail}>{character.teacher}</Text>
+              </View>
+              <View style={styles.detailsContainer}>
+                <Text style={styles.title}>Técnicas: </Text>
+                <Text style={styles.detail}>
+                  {character.techniques ? character.techniques.join(", ") : ""}
+                </Text>
+              </View>
+              <View style={styles.detailsContainer}>
+                <Text style={styles.title}>Personalidad: </Text>
+                <Text style={styles.detail}>{character.personality}</Text>
+              </View>
             </View>
           </TouchableOpacity>
         ))}
@@ -82,108 +91,83 @@ const HomeScreen = ({ navigation }) => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-
     backgroundColor: "#fff",
-    position: "relative",
   },
   header: {
     flexDirection: "row",
-    justifyContent: "space-between",
     alignItems: "center",
-    backgroundColor: "#f2f2f2",
-    height: 60,
-    position: "fixed", // make the header position fixed
-    top: 0, // position it at the top of the screen
-    left: 0, // position it at the left of the screen
-    right: 0, // position it at the right of the screen
-    zIndex: 999, // make sure it's on top of everything else
+    justifyContent: "space-between",
+    paddingVertical: 20,
     paddingHorizontal: 10,
+    backgroundColor: "#3B3B98",
+    marginHorizontal: 10,
+    borderRadius: 10,
   },
   logo: {
     width: 120,
     height: 40,
   },
   searchContainer: {
-    flex: 1,
     flexDirection: "row",
     alignItems: "center",
     backgroundColor: "#fff",
 
-    marginLeft: 10,
+    flex: 1,
+    height: 40,
+    marginHorizontal: 10,
   },
   searchInput: {
     flex: 1,
-    padding: 10,
-    outline: "none",
-    borderWidth: 0,
-    borderColor: "transparent",
+    fontSize: 16,
+    fontWeight: "500",
+    height: "100%",
+    paddingLeft: 10,
   },
   clearButton: {
-    padding: 10,
-  },
-  clearIcon: {
-    width: 15,
-    height: 15,
-  },
-  menuButton: {
-    padding: 10,
-  },
-  menuIcon: {
     width: 30,
     height: 30,
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  clearIcon: {
+    width: 20,
+    height: 20,
   },
   scrollContainer: {
     flex: 1,
-    paddingHorizontal: 20,
-    paddingVertical: 10,
+    paddingHorizontal: 10,
   },
   card: {
-    backgroundColor: "#f2f2f2",
-    borderRadius: 5,
+    backgroundColor: "#F7DC6F",
+    borderRadius: 10,
     marginBottom: 10,
-    overflow: "hidden",
-    marginVertical: 10,
-    padding: 20,
+    padding: 10,
   },
   cardContent: {
-    padding: 20,
     alignItems: "center",
+    flexDirection: "column",
   },
   name: {
-    fontSize: 20,
+    fontSize: 18,
     fontWeight: "bold",
     marginBottom: 10,
   },
   image: {
     width: 300,
     height: 500,
-    marginVertical: 10,
+    resizeMode: "cover",
+    borderRadius: 10,
+    marginBottom: 10,
   },
-  nationality: {
-    fontSize: 16,
+  detailsContainer: {
+    flexDirection: "row",
+    marginBottom: 5,
+  },
+  title: {
     fontWeight: "bold",
-    marginBottom: 5,
   },
-  country: {
-    fontSize: 14,
-    marginBottom: 5,
-  },
-  teacher: {
-    fontSize: 14,
-    fontWeight: "bold",
-    marginBottom: 5,
-  },
-  techniques: {
-    fontSize: 14,
-    marginBottom: 5,
-  },
-  weapon: {
-    fontSize: 14,
-    fontWeight: "bold",
-    marginBottom: 5,
-  },
-  personality: {
-    fontSize: 14,
+  detail: {
+    flex: 1,
   },
 });
 
