@@ -10,7 +10,7 @@ const CharacterScreen = ({ route }) => {
         <View style={styles.cardContent}>
           <Image style={styles.image} source={character.imageDetails} />
           <Text style={styles.description}>{character.description}</Text>
-          <Image style={styles.image} source={character.imageArmor} />
+          <Image style={styles.imageArmor} source={character.imageArmor} />
           <Text style={styles.description}>{character.armorDescription}</Text>
         </View>
       </ScrollView>
@@ -25,6 +25,12 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
   },
+
+  imageArmor: {
+    width: 400,
+    height: 400,
+  },
+
   image: {
     width: 300,
     height: 500,
