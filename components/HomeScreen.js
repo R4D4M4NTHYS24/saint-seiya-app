@@ -138,7 +138,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 10,
   },
   card: {
-    backgroundColor: "#BFBFBF",
+    backgroundColor: "#b0b8b9",
     borderRadius: 10,
     marginBottom: 10,
     padding: 10,
@@ -167,7 +167,6 @@ const styles = StyleSheet.create({
   image: {
     width: 300,
     height: 500,
-    resizeMode: "cover",
     borderRadius: 10,
     marginBottom: 10,
   },
