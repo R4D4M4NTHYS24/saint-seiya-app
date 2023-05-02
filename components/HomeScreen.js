@@ -35,7 +35,7 @@ const HomeScreen = ({ navigation }) => {
         <View style={styles.searchContainer}>
           <TextInput
             style={styles.searchInput}
-            placeholder="Buscar caballero..."
+            placeholder="Buscar..."
             onChangeText={handleSearchTextChange}
             value={searchText}
           />
@@ -138,11 +138,23 @@ const styles = StyleSheet.create({
     paddingHorizontal: 10,
   },
   card: {
-    backgroundColor: "#F7DC6F",
+    backgroundColor: "#BFBFBF",
     borderRadius: 10,
     marginBottom: 10,
     padding: 10,
+    shadowColor: "#000",
+    shadowOffset: {
+      width: 0,
+      height: 4,
+    },
+    shadowOpacity: 0.5,
+    shadowRadius: 6.68,
+    elevation: 11,
+    borderWidth: 2,
+    borderColor: "#F7DC6F",
+    borderStyle: "solid",
   },
+
   cardContent: {
     alignItems: "center",
     flexDirection: "column",

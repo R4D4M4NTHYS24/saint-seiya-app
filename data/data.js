@@ -4,24 +4,29 @@ const characters = [
     name: "Mu de Aries",
     imageMain: require("../assets/images/main/Aries.png"),
     imageDetails: require("../assets/images/details/Mu.png"),
-    nationality: "Japonés",
-    country: "Japón",
+    imageArmor: require("../assets/images/armors/aries.png"),
+    country: "Tíbet, Jamir",
     teacher: "Shion de Aries",
     techniques: ["Murido", "Orokyo Ryuseiken", "Kyuukyoku no Cosmo"],
-    weapon: "Ninguna",
     personality: "Calmo y equilibrado",
+    description:
+      "Mu durante su niñez fue entrenado por Shion, el Papa del Santuario debido a que eran de la misma tierra natal, Jamir, y a la edad de 7 años Mu se convierte en Santo Dorado. También toma los conocimientos de herrería de las Cloths de su maestro. Es así que se le ve portando su armadura a tan temprana edad al igual que otros niños como la guardia de Santos Dorados (siendo los mayores Aioros de Sagitario y Saga de Gemini).Mu como el herrero ermitaño de Jamir.Tras el asesinato de su maestro, Mu abandonó el santuario pues sabia que el patriarca era un impostor. Aparentemente se contactó primero con el maestro Dohko, pues siendo tan joven no contó nada a sus compañeros caballeros dorados y se mantuvo escondido bajo las ordenes de Dohko (tomando en cuenta que Libra era el único fiel a su antiguo maestro de Aries).",
+    armorDescription:
+      "El Cloth de Aries (牡羊座の聖衣, ariesu no kurosu) es el manto sagrado de oro o armadura, portada por el Santo de Aries en sus distintas versiones. Aparece tanto en el manga original, en la serie animada de televisión, en Saint Seiya: Episode G, en Saint Seiya: The Lost Canvas y Saint Seiya: Next Dimension, además de algunas películas.Es un manto que denota dar mucha protección, pues está distribuida de tal manera que mantiene cubierto casi todo el cuerpo del Santo Ariano. Lo más distintivo de ésta son los cuernos dorados del carnero que sobresalen desde la espalda hasta los hombros, aunque no parecen tener más utilidad, si no parte estética del manto, pudiesen funcionar para evitar ataques de fuerza donde un enemigo lo quiera aplastar contra su propio cuerpo. Cuenta con un yelmo que cubre todo el área craneal del Santo, sus características más singulares son sus alerones laterales que aluden al vellocino de oro que surcaba los cielos, y una afilada cimera, muy similar a los yelmos greco-romanos que emula un penacho. En la versión anime tiene una sirconia azul incrustada al centro de la cresta frontal.",
   },
   {
     id: 2,
     name: "Aldebaran de Tauro",
     imageMain: require("../assets/images/main/Tauro.png"),
     imageDetails: require("../assets/images/details/Aldebaran.png"),
-    nationality: "Brasileño",
+
     country: "Brasil",
     teacher: "Dohko de Libra",
     techniques: ["Gran Cuerno"],
-    weapon: "Ninguna",
+
     personality: "Amable y compasivo",
+    description:
+      "Mu durante su niñez fue entrenado por Shion, el Papa del Santuario debido a que eran de la misma tierra natal, Jamir, y a la edad de 7 años Mu se convierte en Santo Dorado. También toma los conocimientos de herrería de las Cloths de su maestro. Es así que se le ve portando su armadura a tan temprana edad al igual que otros niños como la guardia de Santos Dorados (siendo los mayores Aioros de Sagitario y Saga de Gemini).Mu como el herrero ermitaño de Jamir.Tras el asesinato de su maestro, Mu abandonó el santuario pues sabia que el patriarca era un impostor. Aparentemente se contactó primero con el maestro Dohko, pues siendo tan joven no contó nada a sus compañeros caballeros dorados y se mantuvo escondido bajo las ordenes de Dohko (tomando en cuenta que Libra era el único fiel a su antiguo maestro de Aries).",
   },
   {
     id: 3,
@@ -34,6 +39,8 @@ const characters = [
     techniques: ["Galaxian Explosion", "Another Dimension"],
     weapon: "Ninguna",
     personality: "Trastornado",
+    description:
+      "Mu durante su niñez fue entrenado por Shion, el Papa del Santuario debido a que eran de la misma tierra natal, Jamir, y a la edad de 7 años Mu se convierte en Santo Dorado. También toma los conocimientos de herrería de las Cloths de su maestro. Es así que se le ve portando su armadura a tan temprana edad al igual que otros niños como la guardia de Santos Dorados (siendo los mayores Aioros de Sagitario y Saga de Gemini).Mu como el herrero ermitaño de Jamir.Tras el asesinato de su maestro, Mu abandonó el santuario pues sabia que el patriarca era un impostor. Aparentemente se contactó primero con el maestro Dohko, pues siendo tan joven no contó nada a sus compañeros caballeros dorados y se mantuvo escondido bajo las ordenes de Dohko (tomando en cuenta que Libra era el único fiel a su antiguo maestro de Aries).",
   },
   {
     id: 4,
@@ -46,6 +53,8 @@ const characters = [
     techniques: ["Sekishiki Meikai Ha", "Antares", "Hades Bloody Needle"],
     weapon: "Ninguna",
     personality: "Sadista",
+    description:
+      "Mu durante su niñez fue entrenado por Shion, el Papa del Santuario debido a que eran de la misma tierra natal, Jamir, y a la edad de 7 años Mu se convierte en Santo Dorado. También toma los conocimientos de herrería de las Cloths de su maestro. Es así que se le ve portando su armadura a tan temprana edad al igual que otros niños como la guardia de Santos Dorados (siendo los mayores Aioros de Sagitario y Saga de Gemini).Mu como el herrero ermitaño de Jamir.Tras el asesinato de su maestro, Mu abandonó el santuario pues sabia que el patriarca era un impostor. Aparentemente se contactó primero con el maestro Dohko, pues siendo tan joven no contó nada a sus compañeros caballeros dorados y se mantuvo escondido bajo las ordenes de Dohko (tomando en cuenta que Libra era el único fiel a su antiguo maestro de Aries).",
   },
   {
     id: 5,
@@ -58,6 +67,8 @@ const characters = [
     techniques: ["Plasma Relámpago"],
     weapon: "Ninguna",
     personality: "Justo y honorable",
+    description:
+      "Mu durante su niñez fue entrenado por Shion, el Papa del Santuario debido a que eran de la misma tierra natal, Jamir, y a la edad de 7 años Mu se convierte en Santo Dorado. También toma los conocimientos de herrería de las Cloths de su maestro. Es así que se le ve portando su armadura a tan temprana edad al igual que otros niños como la guardia de Santos Dorados (siendo los mayores Aioros de Sagitario y Saga de Gemini).Mu como el herrero ermitaño de Jamir.Tras el asesinato de su maestro, Mu abandonó el santuario pues sabia que el patriarca era un impostor. Aparentemente se contactó primero con el maestro Dohko, pues siendo tan joven no contó nada a sus compañeros caballeros dorados y se mantuvo escondido bajo las ordenes de Dohko (tomando en cuenta que Libra era el único fiel a su antiguo maestro de Aries).",
   },
   {
     id: 6,
@@ -70,6 +81,8 @@ const characters = [
     techniques: ["Tenbu Hoiryuu", "Tenma Kokufuu", "Shoukan Shourin"],
     weapon: "Bastón Budista",
     personality: "Sabio y pacífico",
+    description:
+      "Mu durante su niñez fue entrenado por Shion, el Papa del Santuario debido a que eran de la misma tierra natal, Jamir, y a la edad de 7 años Mu se convierte en Santo Dorado. También toma los conocimientos de herrería de las Cloths de su maestro. Es así que se le ve portando su armadura a tan temprana edad al igual que otros niños como la guardia de Santos Dorados (siendo los mayores Aioros de Sagitario y Saga de Gemini).Mu como el herrero ermitaño de Jamir.Tras el asesinato de su maestro, Mu abandonó el santuario pues sabia que el patriarca era un impostor. Aparentemente se contactó primero con el maestro Dohko, pues siendo tan joven no contó nada a sus compañeros caballeros dorados y se mantuvo escondido bajo las ordenes de Dohko (tomando en cuenta que Libra era el único fiel a su antiguo maestro de Aries).",
   },
   {
     id: 7,
@@ -82,6 +95,8 @@ const characters = [
     techniques: ["Tenbu Horin", "Rozan Kou Ryu Ha", "Rozan Shou Ryu Ha"],
     weapon: "Ninguna",
     personality: "Sereno y sabio",
+    description:
+      "Mu durante su niñez fue entrenado por Shion, el Papa del Santuario debido a que eran de la misma tierra natal, Jamir, y a la edad de 7 años Mu se convierte en Santo Dorado. También toma los conocimientos de herrería de las Cloths de su maestro. Es así que se le ve portando su armadura a tan temprana edad al igual que otros niños como la guardia de Santos Dorados (siendo los mayores Aioros de Sagitario y Saga de Gemini).Mu como el herrero ermitaño de Jamir.Tras el asesinato de su maestro, Mu abandonó el santuario pues sabia que el patriarca era un impostor. Aparentemente se contactó primero con el maestro Dohko, pues siendo tan joven no contó nada a sus compañeros caballeros dorados y se mantuvo escondido bajo las ordenes de Dohko (tomando en cuenta que Libra era el único fiel a su antiguo maestro de Aries).",
   },
   {
     id: 8,
@@ -94,6 +109,8 @@ const characters = [
     techniques: ["Antares", "Scarlet Needle"],
     weapon: "Dagas Escarlatas",
     personality: "Ambiguo y sádico",
+    description:
+      "Mu durante su niñez fue entrenado por Shion, el Papa del Santuario debido a que eran de la misma tierra natal, Jamir, y a la edad de 7 años Mu se convierte en Santo Dorado. También toma los conocimientos de herrería de las Cloths de su maestro. Es así que se le ve portando su armadura a tan temprana edad al igual que otros niños como la guardia de Santos Dorados (siendo los mayores Aioros de Sagitario y Saga de Gemini).Mu como el herrero ermitaño de Jamir.Tras el asesinato de su maestro, Mu abandonó el santuario pues sabia que el patriarca era un impostor. Aparentemente se contactó primero con el maestro Dohko, pues siendo tan joven no contó nada a sus compañeros caballeros dorados y se mantuvo escondido bajo las ordenes de Dohko (tomando en cuenta que Libra era el único fiel a su antiguo maestro de Aries).",
   },
   {
     id: 9,
@@ -106,6 +123,8 @@ const characters = [
     techniques: ["Galaxian Explosion", "Ultimate Galaxian"],
     weapon: "Sagittarius Bow",
     personality: "Leal y honorable",
+    description:
+      "Mu durante su niñez fue entrenado por Shion, el Papa del Santuario debido a que eran de la misma tierra natal, Jamir, y a la edad de 7 años Mu se convierte en Santo Dorado. También toma los conocimientos de herrería de las Cloths de su maestro. Es así que se le ve portando su armadura a tan temprana edad al igual que otros niños como la guardia de Santos Dorados (siendo los mayores Aioros de Sagitario y Saga de Gemini).Mu como el herrero ermitaño de Jamir.Tras el asesinato de su maestro, Mu abandonó el santuario pues sabia que el patriarca era un impostor. Aparentemente se contactó primero con el maestro Dohko, pues siendo tan joven no contó nada a sus compañeros caballeros dorados y se mantuvo escondido bajo las ordenes de Dohko (tomando en cuenta que Libra era el único fiel a su antiguo maestro de Aries).",
   },
   {
     id: 10,
@@ -118,6 +137,8 @@ const characters = [
     techniques: ["Excalibur", "Rozan Kou Ryu Ha", "Rozan Shou Ryu Ha"],
     weapon: "Excalibur",
     personality: "Firme y leal",
+    description:
+      "Mu durante su niñez fue entrenado por Shion, el Papa del Santuario debido a que eran de la misma tierra natal, Jamir, y a la edad de 7 años Mu se convierte en Santo Dorado. También toma los conocimientos de herrería de las Cloths de su maestro. Es así que se le ve portando su armadura a tan temprana edad al igual que otros niños como la guardia de Santos Dorados (siendo los mayores Aioros de Sagitario y Saga de Gemini).Mu como el herrero ermitaño de Jamir.Tras el asesinato de su maestro, Mu abandonó el santuario pues sabia que el patriarca era un impostor. Aparentemente se contactó primero con el maestro Dohko, pues siendo tan joven no contó nada a sus compañeros caballeros dorados y se mantuvo escondido bajo las ordenes de Dohko (tomando en cuenta que Libra era el único fiel a su antiguo maestro de Aries).",
   },
   {
     id: 11,
@@ -130,6 +151,8 @@ const characters = [
     techniques: ["Diamond Dust", "Freezing Coffin"],
     weapon: "Ninguna",
     personality: "Sereno y estoico",
+    description:
+      "Mu durante su niñez fue entrenado por Shion, el Papa del Santuario debido a que eran de la misma tierra natal, Jamir, y a la edad de 7 años Mu se convierte en Santo Dorado. También toma los conocimientos de herrería de las Cloths de su maestro. Es así que se le ve portando su armadura a tan temprana edad al igual que otros niños como la guardia de Santos Dorados (siendo los mayores Aioros de Sagitario y Saga de Gemini).Mu como el herrero ermitaño de Jamir.Tras el asesinato de su maestro, Mu abandonó el santuario pues sabia que el patriarca era un impostor. Aparentemente se contactó primero con el maestro Dohko, pues siendo tan joven no contó nada a sus compañeros caballeros dorados y se mantuvo escondido bajo las ordenes de Dohko (tomando en cuenta que Libra era el único fiel a su antiguo maestro de Aries).",
   },
   {
     id: 12,
@@ -142,6 +165,8 @@ const characters = [
     techniques: ["Rosa Pirueta", "Royal Demon Rose"],
     weapon: "Rosa Sangrienta",
     personality: "Narcisista y arrogante",
+    description:
+      "Mu durante su niñez fue entrenado por Shion, el Papa del Santuario debido a que eran de la misma tierra natal, Jamir, y a la edad de 7 años Mu se convierte en Santo Dorado. También toma los conocimientos de herrería de las Cloths de su maestro. Es así que se le ve portando su armadura a tan temprana edad al igual que otros niños como la guardia de Santos Dorados (siendo los mayores Aioros de Sagitario y Saga de Gemini).Mu como el herrero ermitaño de Jamir.Tras el asesinato de su maestro, Mu abandonó el santuario pues sabia que el patriarca era un impostor. Aparentemente se contactó primero con el maestro Dohko, pues siendo tan joven no contó nada a sus compañeros caballeros dorados y se mantuvo escondido bajo las ordenes de Dohko (tomando en cuenta que Libra era el único fiel a su antiguo maestro de Aries).",
   },
 ];
 
