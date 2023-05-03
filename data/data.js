@@ -23,7 +23,6 @@ const characters = [
     country: "Brasil",
     teacher: "Desconocido",
     techniques: ["Gran Cuerno"],
-
     personality: "Amable y compasivo",
     description:
       "A la edad de 7 años, Aldebarán ya se había convertido en Santo de Oro, portando su armadura a tan temprana edad al igual que otros 'infantes' Santos de Oro. Cabe resaltar que su tamaño y masa corporal ya eran considerables para ese entonces. Al no saber de la impostura del patriarca, Aldebarán creció creyendo seguir al legítimo Patriarca bajo legitimas órdenes de Athena.",
@@ -40,7 +39,6 @@ const characters = [
     country: "Grecia",
     teacher: "Shion de Aries",
     techniques: ["Galaxian Explosion", "Another Dimension"],
-
     personality: "Trastornado",
     description:
       "Saga (サガ, Saga) fue el Gold Saint de Géminis y principal antagonista desde la Saga de los Santos Negros hasta la Batalla de los doce templos, justamente por ser el usurpador del Papa del Santuario, con el fin de dominar el mundo y acabar con Saori y sus Santos al manipular al Ejército de Athena. Saga es considerado el santo de oro más poderoso de su generación. Además, antes de corromperse, Saga era considerado como un dios, por ser un Santo justo y bondadoso con todos los cercanos al Santuario, siendo admirado y respetado por propios y extraños, sin embargo sus proezas solo han sido vistas frente a santos de bronce que fueron capaces de superar o igualar a otros Santos de Oro. (manga clásico)",
@@ -55,7 +53,7 @@ const characters = [
     imageArmor: require("../assets/images/armors/cancer.png"),
     country: "Italia",
     teacher: "Shion de Aries",
-    techniques: ["Sekishiki Meikai Ha", "Antares", "Hades Bloody Needle"],
+    techniques: ["Sekishiki Meikai Ha", "Hades Bloody Needle"],
     weapon: "Ninguna",
     personality: "Sadista",
     description:
@@ -69,11 +67,9 @@ const characters = [
     imageMain: require("../assets/images/main/Leo.png"),
     imageDetails: require("../assets/images/details/Aiolia.png"),
     imageArmor: require("../assets/images/armors/leo.png"),
-
     country: "Grecia",
     teacher: "Aioros de Sagitario",
     techniques: ["Plasma Relámpago"],
-
     personality: "Justo y honorable",
     description:
       "Aiolia (アイオリア, Aioria) fue el Santo de Oro de Leo en la generación del Siglo XX hasta la Guerra contra Hades en 1990. Aiolia es un personaje del manga y anime Saint Seiya conocido como Los Caballeros del Zodiaco y protagonista de los Spin-offs Episode.G y Soul of Gold. Es el hermano menor de Aiolos, a pesar de su personalidad algo explosiva, tiene un corazón puro que identifica rápidamente la justicia, es por eso que fue uno de los primeros santos en reconocer la autoridad de Athena. Como su hermano Aiolos fue tachado como traidor, Aiolia sentía una obligación de limpiar el nombre de la familia jurando fidelidad al Papa e incluso participando voluntariamente en el exterminio de los Bronze Saints 'rebeldes'.",
@@ -86,11 +82,9 @@ const characters = [
     imageMain: require("../assets/images/main/Virgo.png"),
     imageDetails: require("../assets/images/details/Shaka.png"),
     imageArmor: require("../assets/images/armors/virgo.png"),
-
     country: "India",
     teacher: "Buda",
     techniques: ["Tenbu Hoiryuu", "Tenma Kokufuu", "Shoukan Shourin"],
-
     personality: "Sabio y pacífico",
     description:
       "Shaka (シャカ, Shaka) es el Santo de Oro de Virgo en la obra Saint Seiya y protege la Casa de la Virgen en el Santuario. Es considerado por sus aliados como la reencarnación de Buda, pero realmente Buda es su mentor. Posee un poder de observación que le permite conocer la verdad escondida entre las apariencias. Shaka es un personaje que destaca por su serenidad y sabiduría, comprendiendo la fisiología del hombre y el mundo a la perfección. Muestra actitudes de arrogancia, superioridad, y sobre todo, de fanfarronería y soberbia en sus combates contra seres que considere inferiores a él, como Santos de Bronce o Specters de baja categoría. A pesar de su tranquilidad, Shaka es un hombre que llega a molestarse con facilidad y actuar con crueldad como se mostró en su encuentro con Ikki; además de que carece totalmente de piedad.",
@@ -103,11 +97,9 @@ const characters = [
     imageMain: require("../assets/images/main/Libra.png"),
     imageDetails: require("../assets/images/details/Dohko.png"),
     imageArmor: require("../assets/images/armors/libra.png"),
-
     country: "China",
     teacher: "Roshi de Dragón",
     techniques: ["Tenbu Horin", "Rozan Kou Ryu Ha", "Rozan Shou Ryu Ha"],
-
     personality: "Sereno y sabio",
     description:
       "Dohko (童虎, Dōko), también conocido como el Viejo Maestro (老師, Rōshi) fue junto a Shion un Bronze Saint [16] de constelación desconocida durante el siglo XVIII que posteriormente seria promovido a Santo de Libra[16], cargo que ostentaría también hasta 1990 (siglo XX). Dohko fue el primer Gold Saint (en el anime) en ser presentado al comienzo de la historia a pesar de que su verdadero rango no se daría a conocer sino hasta mucho tiempo después. Junto con Shion de Aries, fue sobreviviente de tal guerra contra la armada de Hades, posteriormente fue bendecido por Athena con el Misopethamenos, y se dedicó a cuidar la Torre de las 108 Estrellas Oscuras en los Pico de los Cinco Ancianos durante más de 243 años. Es el maestro de Shiryū, además de Okko (en el anime) y de Genbu (en Omega), tras la derrota de Saga, Dohko se convierte en la autoridad máxima del Santuario y desde los cinco picos lidera a los Saints hasta su muerte en el Siglo XX (1990), sacrificándose junto a los demás Santos de Oro para destruir el Muro de los Lamentos.",
@@ -120,11 +112,9 @@ const characters = [
     imageMain: require("../assets/images/main/Escorpio.png"),
     imageDetails: require("../assets/images/details/Milo.png"),
     imageArmor: require("../assets/images/armors/scorpio.png"),
-
     country: "Grecia",
-    teacher: "Aioria de Leo",
+    teacher: "Desconocido",
     techniques: ["Antares", "Scarlet Needle"],
-    weapon: "Dagas Escarlatas",
     personality: "Ambiguo y sádico",
     description:
       "Milo (ミロ, Miro) fue el Santo de Oro de Scorpius del siglo XX en el anime y manga Saint Seiya. Milo siempre está seguro de sí mismo, es más impulsivo que la mayoría de los otros Santos Dorados. Él es de una naturaleza violenta, apasionada, orgullosa, y jactanciosa lo que parece a simple vista un hombre amargado y mal humorado, se ofende con mucha facilidad, es incontrovertible que se quede quieto cuando algo le preocupa. Milo no pareciera jamás mostrar sus emociones: siempre las disimula detrás de una máscara de inalterabilidad y absoluta calma, pero dentro de sí es una persona muy sentimental; es esta misma calma que lo hace un temible adversario durante el combate. Milo jamás duda y no conoce el titubeo, Muestra su agresividad dependiendo del adversario ya que lo pueden llegar a alterar. Sus pensamientos y sus actos están armonizados perfectamente. Está sincronización es particularmente obvia durante el combate. El combate es uno de los raros momentos en que deja aparecer todas sus pasiones y suele actuar cuando la situación realmente lo requiere.",
@@ -174,7 +164,6 @@ const characters = [
     imageMain: require("../assets/images/main/Aquarius.png"),
     imageDetails: require("../assets/images/details/Camus.png"),
     imageArmor: require("../assets/images/armors/acuario.png"),
-
     country: "Francia",
     teacher: "Aquarius Dégel",
     techniques: ["Diamond Dust", "Freezing Coffin"],
@@ -190,11 +179,9 @@ const characters = [
     imageMain: require("../assets/images/main/Pisces.png"),
     imageDetails: require("../assets/images/details/Aphrodite.png"),
     imageArmor: require("../assets/images/armors/piscis.png"),
-
     country: "Suecia",
     teacher: "Desconocido",
-    techniques: ["Rosa Pirueta", "Royal Demon Rose"],
-    weapon: "Rosa Sangrienta",
+    techniques: ["Rosa Piraña", "Royal Demon Rose"],
     personality: "Narcisista y arrogante",
     description:
       "Aphrodite (アフロディーテ, Afurodīte). Aphrodite tiene cabello celeste (rubio en el manga) y ojos color azur; además se dice que es el santo más hermoso, a pesar de que él mismo nunca hace mención de su apariencia física en sí, sino de la belleza misma. Su piel es color damasco y sus labios son de color rosado suave, en el entendido de que es su apariencia natural, pues Aphrodite representa la belleza natural (en el manga sus labios no tienen un color especial). Debajo de su ojo izquierdo, Aphrodite posee un lunar, lo cual se puede considerar como una marca de belleza. En Saint Seiya: Soul of Gold, Aphrodite en su indumentaria de civil utiliza un traje típico de los franceses con estilo bohemio del cual ha sido sede este país durante el siglo XX (adoptado también por manifestantes juveniles y hippies). El principal detalle es el estilo del cuello en su traje rosa con una cravatta color gris oscuro y el uso de los 'vaqueros' como pantalones de color blanco. Utiliza también unos zapatos marrón oscuro con tacones.",

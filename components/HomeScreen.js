@@ -52,6 +52,7 @@ const HomeScreen = ({ navigation }) => {
           )}
         </View>
       </View>
+
       <ScrollView style={styles.scrollContainer}>
         {filteredCharacters.map((character) => (
           <TouchableOpacity
@@ -137,6 +138,7 @@ const styles = StyleSheet.create({
     flex: 1,
     paddingHorizontal: 10,
   },
+
   card: {
     backgroundColor: "#b0b8b9",
     borderRadius: 10,
